@@ -5,7 +5,7 @@ FROM python:3.15-rc-slim
 WORKDIR /app
 
 #copying the contents of the current directory to the working directory in the container
-COPY ..
+COPY . .
 
 #installing the dependencies from the requirements.txt file
 RUN pip3 install -r requirements.txt
