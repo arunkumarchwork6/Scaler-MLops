@@ -16,4 +16,5 @@ RUN pip3 install -r requirements.txt
 EXPOSE 5000
 
 #defining the command to run the flask app when the container starts
-CMD ["python", "appflask.py"]
+CMD ["python", "regression_predict_flask.py"]
+

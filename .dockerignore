@@ -1,4 +1,7 @@
+__pycache__
 .devcontainer
 .git
+.pytest_cache
 test
 .gitattributes
+
