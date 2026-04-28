@@ -10,7 +10,7 @@ def ping():
 
 @app.route("/",methods = ['GET'])
 def homeping():
-    return "I am in home page"
+    return "I am in home page test"
 
 
 
